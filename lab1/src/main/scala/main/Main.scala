@@ -35,7 +35,7 @@ object Main extends App {
   q1()
 
   def q2(): Unit ={
-    println(data_log.collect().size)
+    println(data_log.count())
   }
   q2()
 
@@ -44,7 +44,7 @@ object Main extends App {
     var page_sizes = data_log.map(_.page_size)
     var min = page_sizes.min()
     var max = page_sizes.max()
-    var avg = page_sizes.sum() / page_sizes.collect().size
+    var avg = page_sizes.sum() / page_sizes.count()
     println(s"$min, $max, $avg")
   }
   q3()
@@ -63,7 +63,7 @@ object Main extends App {
   //the average.
   def q7(): Unit ={
     var page_sizes = data_log.map(_.page_size)
-    var avg = page_sizes.sum() / page_sizes.collect().size
+    var avg = page_sizes.sum() / page_sizes.count()
     var greater_avg = data_log.filter(item => item.page_size > avg).collect()
     //greater_avg.foreach(println)
   }
@@ -71,20 +71,22 @@ object Main extends App {
 
   //9. Report the 10 most popular pageviews of all projects, sorted by the total number of hits.
   def q9(): Unit ={
-
+    var ten_most_popular = data_log.sortBy(item => item.page_hits, false).take(10).foreach(println)
   }
   q9()
 
   //11. Determine the percentage of pages that have only received a single page view in this one hour of log
   //data.
   def q11(): Unit ={
-
+    var num_one_view_pages = data_log.filter(item => item.page_hits == 1).collect().size
+    var size = data_log.count()
+    println((100 * num_one_view_pages) / size + "%")
   }
   q11()
 
   //13. Determine the most frequently occurring page title term in this dataset.
   def q13(): Unit ={
-
+    data_log.groupBy(item => item.page_title).mapValues(_.size).sortBy(_._2, false).take(1).foreach(println)
   }
   q13()
 }

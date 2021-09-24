@@ -35,7 +35,8 @@ object Task2 extends App {
   //lowercasing, removal of non-alphanumeric characters).
   def q12(data_log_df: DataFrame): Unit ={
     println("\nq12 solution: ")
-
+    data_log_df.createOrReplaceTempView("pages")
+    val sqlDF = spark.sql("SELECT page_title")
   }
 
   //13. Determine the most frequently occurring page title term in this dataset.

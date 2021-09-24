@@ -79,6 +79,15 @@ object Task1 extends App {
     var ten_most_popular = data_log.sortBy(item => item.page_hits, false).take(10).foreach(println)
   }
 
+  //10. Determine the number of page titles that start with the article "The". How many of those page titles are not part of the English project?
+  def q10(data_log: RDD[Log]): Unit ={
+    println("\nq10 solution: ")
+    val starting_w_The = data_log.filter(item => item.page_title.startsWith("The_"))
+    val noten_start_w_The = starting_w_The.filter(item => item.project_code != "en")
+    println("Number of page titles starting with 'The': " + starting_w_The.count())
+    println("Number of not english page titles starting with 'The': " + noten_start_w_The.count())
+  }
+
   //11. Determine the percentage of pages that have only received a single page view in this one hour of log
   //data.
   def q11(data_log: RDD[Log]): Unit ={
@@ -86,6 +95,18 @@ object Task1 extends App {
     var num_one_view_pages = data_log.filter(item => item.page_hits == 1).collect().size
     var size = data_log.count()
     println((100 * num_one_view_pages) / size + "%")
+  }
+
+  //12. Determine the number of unique terms appearing in the page titles. Note that in page titles, terms are
+  // delimited by "_" instead of a white space. You can use any number of normalisation steps
+  def q12(data_log: RDD[Log]): Unit ={
+    println("\nq12 solution: ")
+
+    //Controversy with words such as best-seller
+    val page_titles = data_log.map(_.page_title.replaceAll("[^A-Za-z0-9]", " ").toLowerCase)//.foreach(println)
+    val unique_terms = page_titles.flatMap(item => item.split(" ").distinct).distinct().count()
+
+    println("The total number of unique terms is: " + unique_terms)
   }
 
   //13. Determine the most frequently occurring page title term in this dataset.

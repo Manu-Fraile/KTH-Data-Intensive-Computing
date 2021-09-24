@@ -19,6 +19,7 @@ object Main extends App{
     .appName("Spark-Demo")//assign a name to the spark application
     .master("local[*]") //utilize all the available cores on local
     .getOrCreate()
+  import spark.implicits._
 
   val sparkConf = new SparkConf()
   // val sc = new SparkContext(sparkConf)
@@ -26,7 +27,7 @@ object Main extends App{
   val pagecounts = sc.textFile("pagecounts-20160101-000000_parsed.out")
 
   val data_log = pagecounts.map(row => row.split(' ')).map(field => Log(field(0), field(1), field(2).toInt, field(3).toLong))
-  val data_log_df =
+  val data_log_df = data_log.toDF()
 
   println("TASK 1:")
   println()
@@ -47,10 +48,10 @@ object Main extends App{
   println()
   println("TASK 2:\n")
   println()
-  Task2.q3()
-  Task2.q5()
-  Task2.q7()
-  Task2.q12()
-  Task2.q13()
+  Task2.q3(data_log_df)
+  Task2.q5(data_log_df)
+  Task2.q7(data_log_df)
+  Task2.q12(data_log_df)
+  Task2.q13(data_log_df)
 
 }

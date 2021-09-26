@@ -36,7 +36,8 @@ object Task2 extends App {
   def q12(data_log_df: DataFrame): Unit ={
     println("\nq12 solution: ")
     data_log_df.createOrReplaceTempView("pages")
-    val sqlDF = spark.sql("SELECT page_title")
+    val sqlDF = spark.sql("SELECT COUNT(*) AS unique_terms FROM(SELECT DISTINCT explode(split(regexp_replace(LOWER(page_title), '[^A-Za-z0-9]', ' '), ' ')) FROM pages)")
+    sqlDF.show()
   }
 
   //13. Determine the most frequently occurring page title term in this dataset.

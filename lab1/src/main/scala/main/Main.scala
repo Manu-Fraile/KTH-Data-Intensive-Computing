@@ -31,7 +31,7 @@ object Main extends App{
 
   println("TASK 1:")
   println()
-  /*Task1.q1(data_log)
+  Task1.q1(data_log)
   Task1.q2(data_log)
   Task1.q3(data_log)
   Task1.q4(data_log)
@@ -41,17 +41,17 @@ object Main extends App{
   Task1.q8(data_log)
   Task1.q9(data_log)
   Task1.q10(data_log)
-  Task1.q11(data_log)*/
+  Task1.q11(data_log)
   Task1.q12(data_log)
-  //Task1.q13(data_log)
+  Task1.q13(data_log)
 
-  //println()
-  //println("TASK 2:\n")
-  //println()
-  //Task2.q3(data_log_df)
-  //Task2.q5(data_log_df)
-  //Task2.q7(data_log_df)
+  println()
+  println("\nTASK 2:")
+  println()
+  Task2.q3(data_log_df)
+  Task2.q5(data_log_df)
+  Task2.q7(data_log_df)
   Task2.q12(data_log_df)
-  //Task2.q13(data_log_df)
+  Task2.q13(data_log_df)
 
 }

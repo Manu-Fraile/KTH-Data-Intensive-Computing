@@ -1,0 +1,241 @@
+Time: 1633519540000 ms
+-------------------------------------------
+(t,18.0)
+(z,21.0)
+(j,7.0)
+(z,18.0)
+(b,10.0)
+(f,15.0)
+(f,16.5)
+(n,12.0)
+(l,17.0)
+(f,17.0)
+...
+
+21/10/06 13:25:48 INFO VerifiableProperties: Verifying properties
+21/10/06 13:25:48 INFO VerifiableProperties: Property group.id is overridden to kafka-spark-streaming
+21/10/06 13:25:48 INFO VerifiableProperties: Property zookeeper.connect is overridden to localhost:2181
+21/10/06 13:25:48 INFO VerifiableProperties: Property zookeeper.connection.timeout.ms is overridden to 1000
+-------------------------------------------
+Time: 1633519541000 ms
+-------------------------------------------
+(d,12.31572481572482)
+(t,12.686528497409316)
+(r,12.258766626360343)
+(l,12.782828282828286)
+(h,12.542067307692312)
+(z,12.763799743260602)
+(t,12.68693402328589)
+(p,12.788834951456304)
+(f,12.165841584158414)
+(v,12.625304136253023)
+...
+
+21/10/06 13:25:49 INFO VerifiableProperties: Verifying properties
+21/10/06 13:25:49 INFO VerifiableProperties: Property group.id is overridden to kafka-spark-streaming
+21/10/06 13:25:49 INFO VerifiableProperties: Property zookeeper.connect is overridden to localhost:2181
+21/10/06 13:25:49 INFO VerifiableProperties: Property zookeeper.connection.timeout.ms is overridden to 1000
+-------------------------------------------
+Time: 1633519542000 ms
+-------------------------------------------
+(p,12.648178807947021)
+(n,12.948320413436694)
+(h,12.684253246753245)
+(p,12.642679900744419)
+(x,12.550161812297729)
+(n,12.950086058519794)
+(h,12.687753446877533)
+(r,12.170933113129648)
+(l,12.59791122715405)
+(j,12.545144804088599)
+...
+
+21/10/06 13:25:50 INFO VerifiableProperties: Verifying properties
+21/10/06 13:25:50 INFO VerifiableProperties: Property group.id is overridden to kafka-spark-streaming
+21/10/06 13:25:50 INFO VerifiableProperties: Property zookeeper.connect is overridden to localhost:2181
+21/10/06 13:25:50 INFO VerifiableProperties: Property zookeeper.connection.timeout.ms is overridden to 1000
+-------------------------------------------
+Time: 1633519543000 ms
+-------------------------------------------
+(b,12.559261887863737)
+(x,12.603378378378382)
+(x,12.604996623902773)
+(d,12.44398051496172)
+(z,12.541666666666679)
+(d,12.43602225312934)
+(l,12.500000000000014)
+(f,12.215672676837729)
+(p,12.623108665749655)
+(z,12.547738693467348)
+...
+
+21/10/06 13:25:51 INFO VerifiableProperties: Verifying properties
+21/10/06 13:25:51 INFO VerifiableProperties: Property group.id is overridden to kafka-spark-streaming
+21/10/06 13:25:51 INFO VerifiableProperties: Property zookeeper.connect is overridden to localhost:2181
+21/10/06 13:25:51 INFO VerifiableProperties: Property zookeeper.connection.timeout.ms is overridden to 1000
+-------------------------------------------
+Time: 1633519544000 ms
+-------------------------------------------
+(x,12.626695604991873)
+(x,12.632321041214762)
+(v,12.752118644067812)
+(l,12.400992829564268)
+(t,12.328178694158057)
+(f,12.320478001086371)
+(r,12.311183144246352)
+(j,12.573672806067192)
+(n,12.866193336974339)
+(r,12.317494600431964)
+...
+
+21/10/06 13:25:52 INFO VerifiableProperties: Verifying properties
+21/10/06 13:25:52 INFO VerifiableProperties: Property group.id is overridden to kafka-spark-streaming
+21/10/06 13:25:52 INFO VerifiableProperties: Property zookeeper.connect is overridden to localhost:2181
+21/10/06 13:25:52 INFO VerifiableProperties: Property zookeeper.connection.timeout.ms is overridden to 1000
+-------------------------------------------
+Time: 1633519545000 ms
+-------------------------------------------
+(t,12.267788461538439)
+(x,12.616393442622968)
+(v,12.676284941388634)
+(b,12.542988505747113)
+(z,12.371745419479259)
+(t,12.273906775588637)
+(z,12.37397590361445)
+(b,12.545955882352928)
+(r,12.24552547039927)
+(n,12.717972350230399)
+...
+
+21/10/06 13:25:53 INFO VerifiableProperties: Verifying properties
+21/10/06 13:25:53 INFO VerifiableProperties: Property group.id is overridden to kafka-spark-streaming
+21/10/06 13:25:53 INFO VerifiableProperties: Property zookeeper.connect is overridden to localhost:2181
+21/10/06 13:25:53 INFO VerifiableProperties: Property zookeeper.connection.timeout.ms is overridden to 1000
+-------------------------------------------
+Time: 1633519546000 ms
+-------------------------------------------
+(v,12.564318529862167)
+(h,12.543839320200863)
+(b,12.541085271317812)
+(f,12.296875000000012)
+(j,12.508717551336675)
+(t,12.271320904402991)
+(h,12.544401544401557)
+(v,12.564485265977796)
+(d,12.435592548553291)
+(j,12.511231603408195)
+...
+
+21/10/06 13:25:54 INFO VerifiableProperties: Verifying properties
+21/10/06 13:25:54 INFO VerifiableProperties: Property group.id is overridden to kafka-spark-streaming
+21/10/06 13:25:54 INFO VerifiableProperties: Property zookeeper.connect is overridden to localhost:2181
+21/10/06 13:25:54 INFO VerifiableProperties: Property zookeeper.connection.timeout.ms is overridden to 1000
+-------------------------------------------
+Time: 1633519547000 ms
+-------------------------------------------
+(z,12.296296296296273)
+(h,12.511781338360036)
+(b,12.547768698931462)
+(f,12.388643533123025)
+(r,12.467827168169098)
+(z,12.294913071474541)
+(r,12.468614045991295)
+(x,12.571068389536695)
+(n,12.610227627065791)
+(z,12.293530737045357)
+...
+
+21/10/06 13:25:55 INFO VerifiableProperties: Verifying properties
+21/10/06 13:25:55 INFO VerifiableProperties: Property group.id is overridden to kafka-spark-streaming
+21/10/06 13:25:55 INFO VerifiableProperties: Property zookeeper.connect is overridden to localhost:2181
+21/10/06 13:25:55 INFO VerifiableProperties: Property zookeeper.connection.timeout.ms is overridden to 1000
+-------------------------------------------
+Time: 1633519548000 ms
+-------------------------------------------
+(b,12.48699891657636)
+(b,12.484700785269407)
+(r,12.414157851912135)
+(n,12.5797728501893)
+(f,12.368249660786976)
+(t,12.292949076664769)
+(b,12.48619382782889)
+(h,12.476320087098523)
+(j,12.625408052230704)
+(z,12.31040221914008)
+...
+
+21/10/06 13:25:55 INFO VerifiableProperties: Verifying properties
+21/10/06 13:25:55 INFO VerifiableProperties: Property group.id is overridden to kafka-spark-streaming
+21/10/06 13:25:55 INFO VerifiableProperties: Property zookeeper.connect is overridden to localhost:2181
+21/10/06 13:25:55 INFO VerifiableProperties: Property zookeeper.connection.timeout.ms is overridden to 1000
+-------------------------------------------
+Time: 1633519549000 ms
+-------------------------------------------
+(d,12.385718008861087)
+(l,12.358806595132199)
+(z,12.30841856805664)
+(f,12.34493426140757)
+(l,12.356096284667748)
+(x,12.620191066356803)
+(d,12.382490880667012)
+(f,12.344329896907206)
+(l,12.357311012294044)
+(f,12.341664519453738)
+...
+
+21/10/06 13:25:58 INFO VerifiableProperties: Verifying properties
+21/10/06 13:25:58 INFO VerifiableProperties: Property group.id is overridden to kafka-spark-streaming
+21/10/06 13:25:58 INFO VerifiableProperties: Property zookeeper.connect is overridden to localhost:2181
+21/10/06 13:25:58 INFO VerifiableProperties: Property zookeeper.connection.timeout.ms is overridden to 1000
+-------------------------------------------
+Time: 1633519550000 ms
+-------------------------------------------
+(j,12.555976331360956)
+(b,12.496913580246899)
+(z,12.315319662243649)
+(z,12.312590448625162)
+(b,12.498219795869911)
+(n,12.542205501998616)
+(r,12.336009445100366)
+(z,12.315408729201813)
+(j,12.558684335068632)
+(b,12.499050783103923)
+...
+
+21/10/06 13:25:59 INFO VerifiableProperties: Verifying properties
+21/10/06 13:25:59 INFO VerifiableProperties: Property group.id is overridden to kafka-spark-streaming
+21/10/06 13:25:59 INFO VerifiableProperties: Property zookeeper.connect is overridden to localhost:2181
+21/10/06 13:25:59 INFO VerifiableProperties: Property zookeeper.connection.timeout.ms is overridden to 1000
+-------------------------------------------
+Time: 1633519551000 ms
+-------------------------------------------
+(x,12.585066783446452)
+(v,12.620245003223728)
+(v,12.620541469703483)
+(f,12.437689969604849)
+(d,12.338699151620625)
+(p,12.545337066551781)
+(x,12.58778458844132)
+(j,12.549277550140198)
+(h,12.482327586206889)
+(l,12.372759073021461)
+...
+
+21/10/06 13:25:59 INFO VerifiableProperties: Verifying properties
+21/10/06 13:25:59 INFO VerifiableProperties: Property group.id is overridden to kafka-spark-streaming
+21/10/06 13:25:59 INFO VerifiableProperties: Property zookeeper.connect is overridden to localhost:2181
+21/10/06 13:25:59 INFO VerifiableProperties: Property zookeeper.connection.timeout.ms is overridden to 1000
+-------------------------------------------
+Time: 1633519552000 ms
+-------------------------------------------
+(r,12.392575694732495)
+(v,12.615873666940105)
+(z,12.320798319327725)
+(b,12.460709102218491)
+(n,12.537410805300741)
+(d,12.343159642931294)
+(d,12.340805313408062)
+(r,12.390006220194918)
+(b,12.458747927031464)
+(v,12.613491900758653)
+...
